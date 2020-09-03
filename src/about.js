@@ -12,7 +12,7 @@ const about = document.createElement("section");
 about.classList.add("about");
 const aboutH1 = document.createElement("h1");
 const aboutP = document.createElement("p");
-aboutH1.textContent = "Hello there!";
+aboutH1.textContent = "Bongiorno!";
 aboutP.textContent  = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nulla vitae ut ad. Eveniet soluta necessitatibus facere laborum atque.";
 
 

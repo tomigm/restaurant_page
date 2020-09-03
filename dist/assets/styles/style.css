@@ -219,7 +219,37 @@ body {
     margin-left: auto;
 }
 
+/*CONTACT*/
 
+.contact {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact iframe {
+    width: 65%;
+    height: 90%;
+    border: 3px solid #f1bf74;
+}
+
+.contact .data {
+    width: 30%;
+    margin-left: 30px;
+}
+
+.contact .data > * {
+    
+    padding: 1em 0;
+}
+
+.data h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 /*FOOTER*/
 
 footer {

@@ -57,9 +57,13 @@ info.append(infoH2, infoMail, infoTel);
 
 /*  */
 
-const createContact = () =>{
-    data.append(info, openHours, address, dataH1);
-    return data
-}
+data.append(info, openHours, address, dataH1);
+    
 
+
+
+const createContact = () => {
+    contact.append(map, data)    
+    return contact
+}
 export default createContact

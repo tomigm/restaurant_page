@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Restaurant Page</title>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+   <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+<body> 
+    
+
+    
+
+    <nav>   
+        <div class="tabs">
+            <!-- Radio button and lable for #tab-content1 -->
+            
+                <input type="radio" name="tabs" id="tab1" checked >
+                <label for="tab1">
+                    <i class="about_icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-.001 5.75c.69 0 1.251.56 1.251 1.25s-.561 1.25-1.251 1.25-1.249-.56-1.249-1.25.559-1.25 1.249-1.25zm2.001 12.25h-4v-1c.484-.179 1-.201 1-.735v-4.467c0-.534-.516-.618-1-.797v-1h3v6.265c0 .535.517.558 1 .735v.999z"/></svg></i><span>ABOUT US</span>
+                </label>
+            
+
+            <!-- Radio button and lable for #tab-content2 -->
+            
+                <input type="radio" name="tabs" id="tab2">
+                <label for="tab2">
+                    <i class="menu_icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.706c-2.938-1.83-7.416-2.566-12-2.706v17.714c3.937.12 7.795.681 10.667 1.995.846.388 1.817.388 2.667 0 2.872-1.314 6.729-1.875 10.666-1.995v-17.714c-4.584.14-9.062.876-12 2.706zm-10 13.104v-13.704c5.157.389 7.527 1.463 9 2.334v13.168c-1.525-.546-4.716-1.504-9-1.798zm20 0c-4.283.293-7.475 1.252-9 1.799v-13.171c1.453-.861 3.83-1.942 9-2.332v13.704zm-2-10.214c-2.086.312-4.451 1.023-6 1.672v-1.064c1.668-.622 3.881-1.315 6-1.626v1.018zm0 3.055c-2.119.311-4.332 1.004-6 1.626v1.064c1.549-.649 3.914-1.361 6-1.673v-1.017zm0-2.031c-2.119.311-4.332 1.004-6 1.626v1.064c1.549-.649 3.914-1.361 6-1.673v-1.017zm0 6.093c-2.119.311-4.332 1.004-6 1.626v1.064c1.549-.649 3.914-1.361 6-1.673v-1.017zm0-2.031c-2.119.311-4.332 1.004-6 1.626v1.064c1.549-.649 3.914-1.361 6-1.673v-1.017zm-16-6.104c2.119.311 4.332 1.004 6 1.626v1.064c-1.549-.649-3.914-1.361-6-1.672v-1.018zm0 5.09c2.086.312 4.451 1.023 6 1.673v-1.064c-1.668-.622-3.881-1.315-6-1.626v1.017zm0-2.031c2.086.312 4.451 1.023 6 1.673v-1.064c-1.668-.622-3.881-1.316-6-1.626v1.017zm0 6.093c2.086.312 4.451 1.023 6 1.673v-1.064c-1.668-.622-3.881-1.315-6-1.626v1.017zm0-2.031c2.086.312 4.451 1.023 6 1.673v-1.064c-1.668-.622-3.881-1.315-6-1.626v1.017z"/></svg></i><span>MENU</span>
+                </label>
+            
+
+            <!-- Radio button and lable for #tab-content3 -->
+            
+                <input type="radio" name="tabs" id="tab3">
+                <label for="tab3">
+                    <i class="contact_icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.02c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 12.55l-5.992-4.57h11.983l-5.991 4.57zm0 1.288l-6-4.629v6.771h12v-6.771l-6 4.629z"/></svg></i><span>CONTACT</span>
+                </label>
+           
+        </div>
+    </nav>
+
+    <div id="content">
+     <!--  
+
+        <section class="main_content">
+            <h1>EAT SLEEP BRUNCH</h1>
+            <h2>repeat</p>                
+        </section>
+
+        <section class="about">
+            <h1>About us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nulla vitae ut ad. Eveniet soluta necessitatibus facere laborum atque.</p>
+        </section>
+
+        <section class="menu">
+            <div class="menu_col">
+              
+
+                <div class="food_card">
+                    <div class="food">
+                        <h1>food name</h1>
+                        <a>food interesting description</a>
+                    </div>                                       
+                    <a class="price">$10</a>                    
+                </div>
+
+                <div class="food_card">
+                    <div class="food">
+                        <h1>food name</h1>
+                        <a>food interesting description</a>
+                    </div>                                       
+                    <a class="price">$10</a>                    
+                </div>
+
+                <div class="food_card">
+                    <div class="food">
+                        <h1>food name</h1>
+                        <a>food interesting description</a>
+                    </div> 
+                                      
+                    <a class="price">$10</a>                    
+                </div>
+
+                <div class="food_card">
+                    <div class="food">
+                        <h1>food name</h1>
+                        <a>food interesting description</a>
+                    </div>                                       
+                    <a class="price">$10</a>                    
+                </div>
+               
+            </div>
+
+            <div class="col">
+              
+
+                <div class="food_card">
+                    <div class="food">
+                        <h1>food name</h1>
+                        <a>food interesting description</a>
+                    </div>                                       
+                    <a class="price">$10</a>                    
+                </div>
+
+                <div class="food_card">
+                    <div class="food">
+                        <h1>food name</h1>
+                        <a>food interesting description</a>
+                    </div>                                       
+                    <a class="price">$10</a>                    
+                </div>
+
+                <div class="food_card">
+                    <div class="food">
+                        <h1>food name</h1>
+                        <a>food interesting description</a>
+                    </div> 
+                                      
+                    <a class="price">$10</a>                    
+                </div>
+
+                <div class="food_card">
+                    <div class="food">
+                        <h1>food name</h1>
+                        <a>food interesting description</a>
+                    </div>                                       
+                    <a class="price">$10</a>                    
+                </div>
+               
+            </div>
+            
+        </section>
+
+  
+        <section class="contact">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.987531320238!2d-58.381619860095526!3d-34.60447680158088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1599000302652!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            
+            <div class="data">
+                <h1>Contact Info</h1>
+
+                <div class="address">
+                    <h2>Address</h2>
+                    <a>Street Name 555, Buenos Aires</a>
+                </div>    
+
+                <div class="open_hours">
+                <h2>Open hours</h2>
+                <a>Mon-Sat</a>
+                <a>18:00 - 00:00</a>
+                </div>
+
+
+                <div class = "info">
+                    <h2>Reach us</h2>
+                    <a>restaurantname@food.com</a>
+                    <a>(+54) 11-55555555</a>
+                </div>
+            </div>
+        </section>
+    -->
+       
+    </div>
+    <footer>
+        <h1> SOCIAL </h1>
+
+        <ul class = social>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"/></svg></li>
+        </ul>
+
+        <a>All rights reserved - Restaurant Name 2020</a>
+    </footer>
+ <script src="main.js"></script>
+</body>
+</html>
+

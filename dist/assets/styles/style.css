@@ -180,6 +180,43 @@ body {
 .menu {
     height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .menu_col > * {
+    padding: 1em;
+}
+
+.food_card {
+    display: flex;
+    align-items: center;
+}
+.food_card > * {
+    padding: 1em;
+}
+
+.food_card .food h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #353535;
+    font-weight: 700;
+    padding-bottom: 0.2em;
+}
+
+.food_card .food a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #dbab62;
+   
+
+}
+
+.food_card .price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #f1bf74;
+    margin-left: auto;
 }
 
 

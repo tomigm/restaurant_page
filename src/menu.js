@@ -63,6 +63,12 @@ for (let i=0; i < 4; i++) {
 }
 
 const createMenu = () => {
+
+    while (menu.firstChild) {
+        menu.removeChild(menu.lastChild)
+        
+      }  
+
     for (let i=0; i<2; i++){
        createColumns();
     }

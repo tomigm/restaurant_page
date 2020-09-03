@@ -14,8 +14,6 @@ const data = document.createElement("div");
 data.classList.add("data")
 /*DATA*/
 
-const dataH1 = document.createElement ("h1");
-dataH1.innerHTML = 'Contact us!'
 
 
 
@@ -57,7 +55,7 @@ info.append(infoH2, infoMail, infoTel);
 
 /*  */
 
-data.append(info, openHours, address, dataH1);
+data.append(info, openHours, address);
     
 
 

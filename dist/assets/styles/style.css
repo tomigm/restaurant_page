@@ -232,23 +232,41 @@ body {
 .contact iframe {
     width: 65%;
     height: 90%;
-    border: 3px solid #f1bf74;
+    -webkit-box-shadow: 24px 0px 41px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 0px 41px -10px rgba(0,0,0,0.75);
+    box-shadow: 24px 0px 41px -10px rgba(0,0,0,0.75);
 }
 
 .contact .data {
     width: 30%;
     margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .contact .data > * {
-    
+    display: flex;
+    flex-direction: column;    
     padding: 1em 0;
 }
 
+
+
 .data h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #3b3b3b;
+    padding: 0.5em;
+}
+
+.data a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #dbab62;
+
 }
 /*FOOTER*/
 

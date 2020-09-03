@@ -1,8 +1,8 @@
 const menu = document.createElement("section");
 menu.classList.add("menu");
+let menuCol
 
-const menuCol = document.createElement("div");
-menuCol.classList.add("menu_col");
+
 
 
 function foodCards() {
@@ -52,15 +52,19 @@ function foodCards() {
 
 
 function createColumns() {
+    menuCol = document.createElement("div");
+    menuCol.classList.add("menu_col");
+    menu.appendChild(menuCol);
+
 for (let i=0; i < 4; i++) {
     menuCol.appendChild(foodCards())
 }
-return menuCol
+
 }
 
 const createMenu = () => {
     for (let i=0; i<2; i++){
-        menu.appendChild(createColumns())
+       createColumns();
     }
     return menu
 }

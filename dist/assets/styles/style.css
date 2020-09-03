@@ -12,6 +12,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 10px auto 0;
+    background-color: #1f1f1f;
 }
 
 .tabs input[type=radio] {
@@ -28,8 +29,8 @@ body {
     display: block;
     float: left;
     width: 33.3333%;
-    color: #333333;
-    font-size: 20px;
+    color: #e0e0e0;
+    font-size: 1.2rem;
     vertical-align: middle;
     font-weight: normal;
     text-decoration: none;
@@ -37,8 +38,8 @@ body {
     line-height: 2;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    border-bottom: 4px solid #ccc;
+    font-weight: 200;
+    border-bottom: 4px solid #333333;
     -webkit-transition: all 0.5s; /* Safari 3.1 to 6.0 */
     transition: all 0.5s;
 }
@@ -126,7 +127,7 @@ body {
 }
 
 .main_content > * {
-    margin-left: 100px;
+    margin-left: 5%;
 }
 
 .main_content h1{
@@ -161,8 +162,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
-    color: #1f1f1f;
-    margin-top: 50px;
+    color: #3a3939;
+    margin-top: 20px;
     padding: 0.5em;
 }
 
@@ -174,7 +175,12 @@ body {
 
 }
 
+/*MENU*/
 
+.menu {
+    height: 100%;
+    display: flex;
+}
 
 
 /*FOOTER*/
@@ -232,6 +238,9 @@ footer .social li svg:hover {
     .tabs {
     max-width: 100%;
     margin: 10px auto 0;
+    }
+    .tabs label i svg {
+        display: none;
     }
     
 }

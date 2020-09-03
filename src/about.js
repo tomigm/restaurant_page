@@ -5,8 +5,8 @@ const mainContent = document.createElement("section");
 mainContent.classList.add("main_content");
 const mcH1 = document.createElement("h1");
 const mcH2 = document.createElement("h2");
-mcH1.textContent = "EAT - DRINK - BRUNCH";
-mcH2.textContent = "((repeat))";
+mcH1.textContent = "Chefs Warehouse";
+mcH2.textContent = "Your place, our house";
 
 const about = document.createElement("section");
 about.classList.add("about");
